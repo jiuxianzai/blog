@@ -8,16 +8,18 @@
     <meta name="generator" content="VitePress v1.6.4">
     <link rel="preload stylesheet" href="/blog/assets/style.BUff8aEV.css" as="style">
     <link rel="preload stylesheet" href="/blog/vp-icons.css" as="style">
-    <script type="module" src="/blog/assets/chunks/metadata.69a4c8e8.js"></script>
-    <script type="module" src="/blog/assets/app.CWZH9h2c.js"></script>
+    <script type="module" src="/blog/assets/chunks/metadata.1608827a.js"></script>
+    <script type="module" src="/blog/assets/app.BIrrCexc.js"></script>
     <link rel="preload" href="/blog/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/blog/assets/chunks/theme.BrBS8qOI.js">
+    <link rel="modulepreload" href="/blog/assets/chunks/theme.CLk5vTUe.js">
     <link rel="modulepreload" href="/blog/assets/chunks/framework.FMAVMD9w.js">
-    <link rel="modulepreload" href="/blog/assets/技术文档_其他_RESTClient.md.Bnny3K0O.lean.js">
+    <link rel="modulepreload" href="/blog/assets/技术文档_其他_RESTClient.md.DxymZHv7.lean.js">
     <link rel="icon" href="/blog/favicon.ico">
-    <link rel="shortcut icon" href="https://cdn.glitch.com/49d34dc6-8fbd-46bb-8221-b99ffd36f1af%2Ftouchicon-180.png?v=1566411949736">
-    <link rel="apple-touch-icon" href="https://cdn.glitch.com/49d34dc6-8fbd-46bb-8221-b99ffd36f1af%2Ftouchicon-180.png?v=1566411949736">
+    <link rel="shortcut icon" href="/blog/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/png" href="/blog/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
     <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="Jxz Blog">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
@@ -38,7 +40,7 @@
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="post表单提交" tabindex="-1">POST表单提交 <a class="header-anchor" href="#post表单提交" aria-label="Permalink to &quot;POST表单提交&quot;">​</a></h2><div class="language-http vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">http</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">POST</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> https://api.example.com/form</span></span>
 <span class="line"><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">Content-Type</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">:</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> application/x-www-form-urlencoded</span></span>
 <span class="line"></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">username=admin&amp;password=123456</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="多环境" tabindex="-1">多环境 <a class="header-anchor" href="#多环境" aria-label="Permalink to &quot;多环境&quot;">​</a></h2><blockquote><p>以此创建目录文件：<code>src/__http__/http-client.env.json</code>、<code>src/__http__/login.http</code>、<code>response.json</code>。login.http选择<code>dev</code>环境</p></blockquote><div class="vp-code-group vp-adaptive-theme"><div class="tabs"><input type="radio" name="group-PD5PA" id="tab-rtHYRm0" checked><label data-title="http-client.env.json" for="tab-rtHYRm0">http-client.env.json</label><input type="radio" name="group-PD5PA" id="tab-ou1hEAy"><label data-title="login.http" for="tab-ou1hEAy">login.http</label></div><div class="blocks"><div class="language-json vp-adaptive-theme active line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">{</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">username=admin&amp;password=123456</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="多环境" tabindex="-1">多环境 <a class="header-anchor" href="#多环境" aria-label="Permalink to &quot;多环境&quot;">​</a></h2><blockquote><p>以此创建目录文件：<code>src/__http__/http-client.env.json</code>、<code>src/__http__/login.http</code>、<code>response.json</code>。login.http选择<code>dev</code>环境</p></blockquote><div class="vp-code-group vp-adaptive-theme"><div class="tabs"><input type="radio" name="group-QVJGH" id="tab-OP__S9b" checked><label data-title="http-client.env.json" for="tab-OP__S9b">http-client.env.json</label><input type="radio" name="group-QVJGH" id="tab-XRMRKfz"><label data-title="login.http" for="tab-XRMRKfz">login.http</label></div><div class="blocks"><div class="language-json vp-adaptive-theme active line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">json</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">{</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">	&quot;dev&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: {</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">		&quot;baseUrl&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;http://192.168.0.50:8888&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">		&quot;headers&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: {</span></span>
